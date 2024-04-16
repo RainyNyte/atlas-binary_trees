@@ -51,5 +51,8 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Testing Directory
-*/test/
+# Testing Files
+test
+temp
+*.tmp
+*.tst
