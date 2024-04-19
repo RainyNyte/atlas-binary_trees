@@ -20,7 +20,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *lotus, int value)
 	{
 		if (lotus->left != NULL)
 		{
-			binary_tree_insert_left((lotus->left), value);
+			return (binary_tree_insert_left((lotus->left), value));
 		}
 		else
 		{
