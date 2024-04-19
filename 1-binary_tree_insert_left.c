@@ -14,7 +14,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *lotus, int value)
 
 	if (ten0 == NULL)
 	{
-	return (NULL);
+		return (NULL);
 	}
 	else
 	{
