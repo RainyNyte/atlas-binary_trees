@@ -18,11 +18,18 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *lotus, int value)
 	}
 	else
 	{
-		ten0->n = value;
-		ten0->parent = lotus;
-		ten0->right = NULL;
-		ten0->left = NULL;
-		lotus->left = ten0;
-		return (ten0);
+		if (lotus->left != NULL)
+		{
+			binary_tree_insert_left((lotus->left), value);
+		}
+		else
+		{
+			ten0->n = value;
+			ten0->parent = lotus;
+			ten0->right = NULL;
+			ten0->left = NULL;
+			lotus->left = ten0;
+			return (ten0);
+		}
 	}
 }
