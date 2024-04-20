@@ -9,7 +9,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *ten0)
 		return (NULL);
 
 	lotus = ten0->parent;
-	margulis = parent->parent;
+	margulis = lotus->parent;
 	if (margulis->left == lotus)
 	{
 		return (margulis->right);
