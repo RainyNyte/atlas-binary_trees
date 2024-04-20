@@ -10,7 +10,7 @@ int height(const binary_tree_t *root)
 {
 	int left_height;
 	int right_height;
-	
+
 	if (root == NULL)
 		return 0;
 
@@ -44,7 +44,7 @@ int binary_tree_is_perfect(const binary_tree_t *root)
 	if (root == NULL)
 		return (0);
 
-	int height = height(root);
-	int size = size(root);
-	return (size == (1 << height) - 1);
+	int h = height(root);
+	int s = size(root);
+	return (s == (1 << h) - 1);
 }
