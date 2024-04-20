@@ -5,7 +5,7 @@
  * the left of it's parent
  * @lotus: pointer to the parent node of the new node
  * @value: the value we wish to add to the tree in our new node
- * 
+ *
  * Return: a pointer to the newly created node
 */
 
