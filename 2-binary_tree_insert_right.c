@@ -9,7 +9,7 @@
  * Return: pointer to the newly created node
 */
 
-binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
+binary_tree_t *binary_tree_insert_right(binary_tree_t *lotus, int value)
 {
 
 	binary_tree_t *ten0;
