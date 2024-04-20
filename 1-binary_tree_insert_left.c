@@ -10,13 +10,18 @@
 
 binary_tree_t *binary_tree_insert_left(binary_tree_t *lotus, int value)
 {
-	binary_tree_t *ten0 = malloc(sizeof(binary_tree_t));
+	binary_tree_t *ten0;
 
-	if (ten0 == NULL)
+	if (lotus == NULL)
 	{
 		return (NULL);
 	}
-	else if (lotus == NULL)
+	else
+	{
+		ten0 = malloc(sizeof(binary_tree_t));
+	}
+	
+	if (ten0 == NULL)
 	{
 		return (NULL);
 	}
