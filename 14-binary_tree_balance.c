@@ -22,7 +22,7 @@ int max(int a, int b)
  * Return: height of the tree
 */
 
-int height(const binary_tree_t *tree)
+int height(const binary_tree_t *root)
 {
 	int left_height;
 	int right_height;
