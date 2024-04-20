@@ -3,7 +3,7 @@
 /**
  * binary_tree_is_root- checks if the given node is the root of a tree
  * @node: the node to be checked
- * 
+ *
  * Return: 1 if the node is the root of a tree or 0 otherwise
 */
 
