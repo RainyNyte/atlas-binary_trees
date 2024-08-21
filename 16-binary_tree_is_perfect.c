@@ -36,7 +36,7 @@ int is_perfect_recursive(const binary_tree_t *tree, size_t depth, size_t level)
 	}
 	if (tree->left == NULL && tree->right == NULL)
 	{
-		return (depth == level + 1);
+		return (depth == level);
 	}
 	if (tree->left && tree->right)
 	{
